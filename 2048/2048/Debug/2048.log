@@ -1,0 +1,5 @@
+﻿  win32_platform.cpp
+C:\Users\user\Desktop\Projekt\2048\2048\win32_platform.cpp(9,5): warning C4007: "WinMain": musi być "__stdcall"
+C:\Users\user\Desktop\Projekt\2048\2048\win32_platform.cpp(22,2): error C2664: „HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)”: nie można dokonać konwersji argumentu 2 z „LPCWSTR” do „LPCSTR”
+C:\Users\user\Desktop\Projekt\2048\2048\win32_platform.cpp(22,2): message : Wskazane typy nie są powiązane; konwersja wymaga operatora reinterpret_cast, rzutowania w stylu języka C lub rzutowania w stylu funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4416,1): message : zobacz deklarację „CreateWindowExA”
